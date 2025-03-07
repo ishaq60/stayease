@@ -5,15 +5,14 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_API_KEY,
-    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_APP_ID,
-  };
-  
+  apiKey: "AIzaSyBL_ENVAa9oPZ-ATtumkbZAF69FHe7Pnio",
+  authDomain: "stayease-f95fc.firebaseapp.com",
+  projectId: "stayease-f95fc",
+  storageBucket: "stayease-f95fc.firebasestorage.app",
+  messagingSenderId: "753258719184",
+  appId: "1:753258719184:web:c8416fdc35b50fe3817bd5"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export default app;
+export default app

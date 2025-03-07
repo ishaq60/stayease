@@ -17,14 +17,15 @@ import image2 from "../assets/bannerImage/1.jpg";
 import image3 from "../assets/bannerImage/3.jpg";
 
 export default function Carousel() {
+
   return (
     <Swiper
     direction={'vertical'}
       spaceBetween={20}
-      autoplay={{
-        delay: 4000,
-        disableOnInteraction: false,
-      }}
+      // autoplay={{
+      //   delay: 4000,
+      //   disableOnInteraction: false,
+      // }}
       pagination={{
         dynamicBullets: true,
         clickable: true, // Improves mobile usability
